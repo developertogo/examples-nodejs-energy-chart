@@ -5,12 +5,14 @@ node.js application that fetches energy data and plot them on a color bar chart 
 
 It gets the data from [Pulse Energy Platform](http://developer.pulseenergy.com/)
 
+    Usage: node chart.js <space_id>
+
 Example
 -------
 
 Output after running the app as follows: 
 
-node chart.js 388
+    node chart.js 388
 
 ![week energy](https://github.com/developertogo/examples-nodejs-energy-chart/raw/master/week_energy_chart.png)
 
@@ -25,7 +27,7 @@ This app depends on these node.js modules. Use npm to install them (npm install 
  * dateformat  - show date in a readable format
  * request     - simplied http request
 
-Below are the config params to PEChart class:
+Below are the config params to the PEChart class:
 
 ````javascript
 // from command line
