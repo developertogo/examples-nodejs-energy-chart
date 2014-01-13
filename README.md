@@ -12,12 +12,12 @@ Output after running the app as follows:
 
 node chart.js 388
 
-![week energy](https://github.com/developertogo/examples-nodejs-energy-chart/blob/master/week_energy_chart.png)
+![week energy](https://github.com/developertogo/examples-nodejs-energy-chart/raw/master/week_energy_chart.png)
 
 Dependencies
 ------------
 
-This app depends on these node.js modules. Use npm to install them (npm install <module_name>):
+This app depends on these node.js modules. Use npm to install them (npm install *module_name*):
 
  * async       - asynchronous control flow (waterfall) 
  * cli-chart   - draw ansi color bar charts in a terminal
